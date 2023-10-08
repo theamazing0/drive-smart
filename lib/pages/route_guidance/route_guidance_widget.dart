@@ -129,11 +129,11 @@ class _RouteGuidanceWidgetState extends State<RouteGuidanceWidget> {
                         alignment: AlignmentDirectional(0.00, -0.79),
                         child: FlutterFlowPlacePicker(
                           iOSGoogleMapsApiKey:
-                              'AIzaSyDk-s1itUSEe6dQsbHLlVIabRTw7DslJSQ',
+                              'INSERT API KEY',
                           androidGoogleMapsApiKey:
-                              'AIzaSyDk-s1itUSEe6dQsbHLlVIabRTw7DslJSQ',
+                              'INSERT API KEY',
                           webGoogleMapsApiKey:
-                              'AIzaSyDk-s1itUSEe6dQsbHLlVIabRTw7DslJSQ',
+                              'INSERT API KEY',
                           onSelect: (place) async {
                             setState(() => _model.placePickerValue = place);
                             (await _model.googleMapsController.future)
